@@ -15,6 +15,7 @@ public class CallRestWebService {
 	//public static final String endpoint = "http://ip-api.com/json";
 	public static final String endpoint = "https://httpbin.org/get";
 	public static void main(String[] args) {
+		System.out.println("mayssem is working here");
 		HttpClient client = new DefaultHttpClient();
 		HttpGet request = new HttpGet(endpoint);
 		String ip = "not found";
