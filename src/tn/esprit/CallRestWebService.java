@@ -16,6 +16,8 @@ public class CallRestWebService {
 	public static final String endpoint = "https://httpbin.org/get";
 	public static void main(String[] args) {
 
+		System.out.println("me and mayssem working here");
+
 
 		System.out.println("Je suis brahim,I'm working on it");
 		HttpClient client = new DefaultHttpClient();
